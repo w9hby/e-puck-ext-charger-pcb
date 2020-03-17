@@ -1,11 +1,26 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
-# 1714971
+# Mechanical_MountingHole
 #
-DEF 1714971 J 0 30 Y Y 1 F N
+DEF Mechanical_MountingHole H 0 40 Y Y 1 F N
+F0 "H" 0 200 50 H V C CNN
+F1 "Mechanical_MountingHole" 0 125 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ MountingHole*
+$ENDFPLIST
+DRAW
+C 0 0 50 0 1 50 N
+ENDDRAW
+ENDDEF
+#
+# ext-charger_1714971
+#
+DEF ext-charger_1714971 J 0 30 Y Y 1 F N
 F0 "J" -100 -250 50 H V L CNN
-F1 "1714971" -100 -350 50 H V L CNN
+F1 "ext-charger_1714971" -100 -350 50 H V L CNN
 F2 "ext-charger:Terminal_block" -100 -450 50 H I L CNN
 F3 "" 100 -550 50 H I L CNN
 DRAW
@@ -15,11 +30,11 @@ X + 2 150 50 200 L 50 50 0 0 w
 ENDDRAW
 ENDDEF
 #
-# B2B-PH-K-S
+# ext-charger_B2B-PH-K-S
 #
-DEF B2B-PH-K-S J 0 40 Y Y 1 F N
+DEF ext-charger_B2B-PH-K-S J 0 40 Y Y 1 F N
 F0 "J" -100 130 50 H V L BNN
-F1 "B2B-PH-K-S" -300 -300 50 H V L BNN
+F1 "ext-charger_B2B-PH-K-S" -300 -300 50 H V L BNN
 F2 "ext-charger:JST_B2B-PH-K-S" -600 -400 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
 DRAW
@@ -34,11 +49,11 @@ X - 2 -300 -100 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
-# TP4056
+# ext-charger_TP4056
 #
-DEF TP4056 U 0 40 Y Y 1 F N
+DEF ext-charger_TP4056 U 0 40 Y Y 1 F N
 F0 "U" 0 -300 50 H V C CNN
-F1 "TP4056" 0 -200 50 H V C CNN
+F1 "ext-charger_TP4056" 0 -200 50 H V C CNN
 F2 "ext-charger:TP4056" 0 -350 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
